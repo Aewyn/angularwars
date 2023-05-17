@@ -6,7 +6,7 @@ import {Starship} from "../../shared/model/starship";
 @Component({
   selector: 'app-people',
   templateUrl: './people.component.html',
-  styleUrls: ['./people.component.scss']
+  styleUrls: ['./people.component.scss', '../../shared/style/cards.scss']
 })
 export class PeopleComponent {
   people: Person[] = [];

@@ -5,7 +5,7 @@ import {StarshipService} from "../../services/starship.service";
 @Component({
   selector: 'app-starships',
   templateUrl: './starships.component.html',
-  styleUrls: ['./starships.component.scss']
+  styleUrls: ['./starships.component.scss', '../../shared/style/cards.scss']
 })
 export class StarshipsComponent {
   starships:Starship[] = [];
