@@ -1,0 +1,10 @@
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  mat-card{
+    margin: 10px;
+    width: 300px;
+  }
+}
